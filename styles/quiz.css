@@ -1,0 +1,104 @@
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+.title {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 10%;
+    font-size: 30px;
+    color: #1C4AA6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: #186cbc;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #0084ff;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.quiz {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+#next{
+background-color: #173c87;
+}
+
+.column {
+    flex: 50%;
+}
+
+.column2 {
+    flex: 33%;
+    text-align: center;
+}
+
+.column3 {
+    flex: 25%;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.half {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.center {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.dark-theme .title {
+    color: #017901;
+  }
+  
+  .dark-theme .boxTitle {
+    color: #017901;
+  }
+  
+  .dark-theme .subTitle {
+    color: #59be59;
+  }
+  
+  .dark-theme .button {
+    background-color: #017901;
+  }
+  
+  .dark-theme .box {
+    border-color: #017901;
+  }
+  
+  .dark-theme .box {
+    background-color: #003100;
+  }
+
+  .dark-theme #next {
+    background-color: green;
+  }

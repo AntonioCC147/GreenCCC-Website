@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/assets/icons/icon.png">
+    <link rel="stylesheet" href="../styles/navbar.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/contact.css" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <script src="../scripts/script.js"></script>
+    <title>ZebraHack1.0</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html">
+            <div class="logo"><img src="../assets/icons/icon.png" width="40px"></div>
+        </a>
+        <ul class="nav-links">
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <div class="menu">
+                <li><a href="index.html" class="currentPage">Acasă</a></li>
+                <li class="services">
+                    <a>Servicii</a>
+                    <ul class="dropdown">
+                        <li><a href="./wind.html">Eoliene</a></li>
+                        <li><a href="./panels.html">Panouri</a></li>
+                    </ul>
+                </li>
+                <li><a href="./faq.html">FAQ</a></li>
+                <li><a href="./quiz.html">Quiz</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <button id="themeToggle" class="darkButton"><img src="../assets/icons/brightness.png" width="30px"></button>
+            </div>
+        </ul>
+    </nav>
+    <main style="margin-top: 5%; margin-bottom: 10%; margin-left: 5%; margin-right: 5%">
+        <form action="mailto:your-email@example.com" method="get" enctype="text/plain" class="box">
+            <label class="title">Subiect:</label><br>
+            <input type="text" name="subject" placeholder="Numele tău" class="text" required><br>
+            <label class="title">Email:</label><br>
+            <input type="email" name="email" placeholder="Email-ul tău" class="text" required><br>
+            <label class="title">Număr de telefon:</label><br>
+            <input type="text" name="phone" placeholder="07..." class="text" required><br>
+            <label class="title">Mesaj:</label><br>
+            <textarea name="body" rows="10" cols="30" placeholder="Mesajul tău" class="text" required></textarea><br>
+            <input type="submit" value="Trimite" class="button">
+        </form>
+    </main>
+    <footer>
+        <div class="footer container">
+            <div class="column3">
+                Powered by <b>GreenCCC</b>
+            </div>
+            <div class="column3">
+                <b>Gmail:</b> greenccc@gmail.com
+                <br />
+                <b>Phone:</b> 0712345678
+            </div>
+            <div class="column3">
+                Team CCC
+            </div>
+            <div class="column3">
+                © 2023 Copyright | All rights reserved
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

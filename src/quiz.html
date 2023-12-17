@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/assets/icons/icon.png">
+    <link rel="stylesheet" href="../styles/navbar.css" />
+    <link rel="stylesheet" href="../styles/quiz.css"/>
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <script src="../scripts/script.js"></script>
+    <title>Quiz</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html"><div class="logo"><img src="../assets/icons/icon.png" width="40px"></div></a>
+        <ul class="nav-links">
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <div class="menu">
+            <li><a href="index.html" class="currentPage">Acasă</a></li>
+            <li class="services">
+                <a>Servicii</a>
+                <ul class="dropdown">
+                  <li><a href="./wind.html">Eoliene</a></li>
+                  <li><a href="./panels.html">Panouri</a></li>
+                </ul>
+              </li>
+            <li><a href="./faq.html">FAQ</a></li>
+            <li><a href="./quiz.html">Quiz</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <button id="themeToggle" class="darkButton"><img src="../assets/icons/brightness.png" width="30px"></button>
+          </div>
+        </ul>
+    </nav>
+    <div id="quiz">
+        <h1 id="question" class="title" style="margin-bottom: 2%"></h1>
+        <div class="center">
+            <div id="options" class="buttons"/></div>
+        </div>
+        <div class="center">
+          <button id="next" class="button">Următoarea</button>
+        </div>
+        <br/><br/>
+    </div>
+    <div id="answer" class="title"></div>
+    <script src="../scripts/quiz.js"></script>
+    <div class="center" style="margin-bottom: 3%">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/4R7L8g4-vBo?si=yc8JWpqgJA5e22tE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="container" style="margin-bottom: 5%">
+      <div class="column center">
+        <img src="../assets/photos/quiz1.jpg" width="75%" style="border-radius: 20px;">
+      </div>
+      <div class="column center">
+        <img src="../assets/photos/quiz2.jpg" width="68%" style="border-radius: 20px;">
+      </div>
+    </div>
+    <footer>
+      <div class="footer container">
+          <div class="column3">
+              Powered by <b>GreenCCC</b>
+          </div>
+          <div class="column3">
+              <b>Gmail:</b> greenccc@gmail.com
+              <br/>
+              <b>Phone:</b> 0712345678
+          </div>
+          <div class="column3">
+              Team CCC
+          </div>
+          <div class="column3">
+              © 2023 Copyright | All rights reserved
+          </div>
+      </div>
+  </footer>
+</body>
+</html>

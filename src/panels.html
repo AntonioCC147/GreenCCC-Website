@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/assets/icons/icon.png">
+    <link rel="stylesheet" href="../styles/navbar.css" />
+    <link rel="stylesheet" href="../styles/panels.css">
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <script src="../scripts/script.js"></script>
+    <title>Panouri</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html"><div class="logo"><img src="../assets/icons/icon.png" width="40px"></div></a>
+        <ul class="nav-links">
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <div class="menu">
+            <li><a href="index.html" class="currentPage">Acasă</a></li>
+            <li class="services">
+                <a>Servicii</a>
+                <ul class="dropdown">
+                  <li><a href="./wind.html">Eoliene</a></li>
+                  <li><a href="./panels.html">Panouri</a></li>
+                </ul>
+              </li>
+            <li><a href="./faq.html">FAQ</a></li>
+            <li><a href="./quiz.html">Quiz</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <button id="themeToggle" class="darkButton"><img src="../assets/icons/brightness.png" width="30px"></button>
+          </div>
+        </ul>
+    </nav>
+    <div class="panouImg" style="margin-top: 3%">
+        <img src="../assets/photos/panouri-solare.svg" width="55%" alt="Eoliene">
+    </div>
+    <div class="container" style="margin-top: 5%">
+        <div class="half">
+            <h1 class="title">Ce este un Panou Solar?</h1>
+            <p class="text" style="margin-top: 5%">Un panou solar este un dispozitiv care transformă lumina solară în energie electrică folosind celule fotovoltaice (PV). Celulele fotovoltaice sunt fabricate din materiale care produc electroni excitați atunci când sunt expuse la lumină.</p>
+        </div>
+        <div class="half">
+            <h1 class="title">Avantaje</h1>
+            <p class="text" style="margin-top: 5%">Energia solara este complet gratuita si regenerabila</p>
+            <p class="text">Economisesti bani in mod inteligent</p>
+            <p class="text">Necesita costuri reduse sau chiar 0 de intretinere</p>
+            <p class="text">Sunt foarte prietenoase cu mediul</p>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 5%"></div>
+    <h1 class="title">Testimoniale</h1>
+    <div class="content-slider">
+      <div class="slider">
+        <div class="mask">
+          <ul>
+            <li class="anim1">
+              <div class="quote">Am instalat panouri solare și sunt extrem de mulțumit. Nu numai că economisesc bani, dar contribui și la protejarea mediului înconjurător.</div>
+              <div class="source">Ionescu Adrian</div>
+            </li>
+            <li class="anim2">
+              <div class="quote">Panourile solare au fost o investiție excelentă. Acum, producem propria noastră energie și ne simțim mai independenți.</div>
+              <div class="source">Radu Elena</div>
+            </li>
+            <li class="anim3">
+              <div class="quote">Folosirea energiei solare a fost o decizie minunată. Este o sursă de energie curată și regenerabilă, care ne ajută să reducem amprenta de carbon.</div>
+              <div class="source">Vasilescu Ioana</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <h1 class="title">Prețuri</h1>
+        <div class="column2 center">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../assets/photos/panou1.jpg" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back" style="padding-top: 10%">
+                <h1>Pachet Basic</h1> 
+                <p>15.000 RON</p> 
+                <p style="margin-top: 15%; margin-left: 5%; margin-right: 5%">Pachetul Basic include 5 panouri solare, instalare, și garanție 1 an. Acest pachet este potrivit pentru case mici cu un consum moderat de energie.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column2 center">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../assets/photos/panou2.webp" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back" style="padding-top: 10%">
+                <h1>Pachet Standard</h1> 
+                <p>27.500 RON</p> 
+                <p style="margin-top: 15%; margin-left: 5%; margin-right: 5%">Pachetul Standard include 10 panouri solare, instalare, garanție 2 ani, și întreținere. Acest pachet este ideal pentru gospodării de dimensiuni medii, acoperind necesitățile de energie ale unei gospodării.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column2 center">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../assets/photos/panou3.jpg" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back" style="padding-top: 10%">
+                <h1>Pachet Premium</h1> 
+                <p>40.000 RON</p> 
+                <p style="margin-top: 15%; margin-left: 5%; margin-right: 5%">Pachetul Premium include 20 panouri solare, instalare, garanție 3 ani, întreținere, și monitorizare. Acest pachet este puternic și ideal pentru utilizarea în industrie sau pentru gospodării cu un consum mare de energie.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer container" style="margin-top: 5%">
+            <div class="column3">
+                Powered by <b>GreenCCC</b>
+            </div>
+            <div class="column3">
+                <b>Gmail:</b> greenccc@gmail.com
+                <br/>
+                <b>Phone:</b> 0712345678
+            </div>
+            <div class="column3">
+                Team CCC
+            </div>
+            <div class="column3">
+                © 2023 Copyright | All rights reserved
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

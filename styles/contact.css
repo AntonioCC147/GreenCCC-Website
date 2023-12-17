@@ -1,0 +1,111 @@
+body {
+    transition: background-color 0.5s ease;
+}
+
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+.center {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+}
+
+.title {
+    margin-top: 15%;
+    margin-right: 10%;
+    font-size: 30px;
+    color: #1C4AA6;
+}
+
+.subTitle {
+    margin-top: 1%;
+}
+
+.box {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+}
+
+.box input[type="text"],
+.box input[type="email"],
+.box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.box input[type="submit"] {
+    background-color: #1C4AA6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .box {
+        padding: 10px;
+    }
+} 
+
+.column {
+    flex: 50%;
+}
+
+.column2 {
+    flex: 33%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.column3 {
+    flex: 25%;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.half {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+.dark-theme .title {
+    color: green;
+}
+
+.dark-theme .box input[type="submit"] {
+    background-color: green;
+}
+
+.dark-theme .box {
+    background-color: rgb(41, 41, 41);
+}
+
+.dark-theme input {
+    background-color: #333;
+}
+
+.dark-theme textarea {
+    background-color: #333;
+}

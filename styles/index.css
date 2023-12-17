@@ -1,0 +1,162 @@
+.dark-theme {
+  background-color: #1d1d1d;
+  color: #fff;
+}
+
+.center {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+}
+
+.title {
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 60px;
+    color: #1C4AA6;
+}
+
+.subTitle {
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    color: #62A2E9;
+}
+
+.text {
+    margin-top: 5%; 
+    margin-left: 10%;
+    margin-right: 10%;
+    color: gray;
+}
+
+.button {
+    margin-top: 5% !important;
+    margin-left: 10% !important;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #1C4AA6;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+  .column2 {
+    flex: 33%;
+    text-align: center;
+  }
+
+  .column3 {
+    flex: 25%;
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .half {
+    flex: 1;
+    box-sizing: border-box;
+  }
+
+  @media (max-width: 600px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+
+.box {
+    margin: 5% 10% 10% 5%;
+    margin-left: 10%;
+    padding: 5%;
+    text-align: justify;
+    border-width: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #6299ff;
+}
+
+.box:hover {
+    background-color: #1c4aa622;
+}
+
+.boxTitle {
+    color: #62A2E9;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.iconBox {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 10px;
+}
+
+.dark-theme .title {
+  color: #017901;
+}
+
+.dark-theme .boxTitle {
+  color: #017901;
+}
+
+.dark-theme .subTitle {
+  color: #59be59;
+}
+
+.dark-theme .button {
+  background-color: #017901;
+}
+
+.dark-theme .box {
+  border-color: #017901;
+}
+
+.dark-theme .box {
+  background-color: #003100;
+}
